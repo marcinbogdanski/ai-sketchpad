@@ -45,3 +45,11 @@ This section included dataset preprocessing notebooks. These need to be run firs
   * [Tiny ImageNet](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/Datasets/1300_TinyImageNet.ipynb) - download, explore and convert to .npz
   * [Oxford VGG Flowers 17](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/Datasets/1410_Oxford_VGG_Flowers.ipynb) - download, explore and convert to .npz
   * [Stanford Dogs](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/Datasets/1430_Stanford_Dogs.ipynb) - download, explore and convert to .npz
+
+<h2 id="debugging"> Debugging Techniques </h2>
+
+Debugging techniques. Track input/output distributions, individual neuron weights, gradients, preactivation histograms, 
+
+**Note** this notebook has cool graphs, but no description
+
+* [MLP with Sigmoid Activation](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/DebugNN/Debug_Bikes.ipynb)
