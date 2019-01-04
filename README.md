@@ -26,7 +26,7 @@ Neural networks implemented in `keras.layers` API
 * Convolutional Models:
   * [Convolutional Neural Network](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/1100_CNN_CIFAR10.ipynb) - classification on CIFAR-10
   * [CNN with Batch Normalization](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/1200_CNN_BN_CIFAR10.ipynb) - classification on CIFAR-10
-  * [CNN with Data Augumentation](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/1250_Aug_CIFAR10.ipynb) - classification on CIFAR-10
+  * [CNN with Data Augmentation](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/1250_Aug_CIFAR10.ipynb) - classification on CIFAR-10
   * [ResNet-50 in Keras Layers API](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/1300_ResNet50_Scratch.ipynb) - classification on Oxford VGG Flower 17 dataset
   * [ResNet-50 Transfer Learning](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/1400_ResNet50_Transfer.ipynb) - classification on Oxford VGG Flower 17 dataset
 * Recurrent Models:
