@@ -35,3 +35,13 @@ Neural networks implemented in `keras.layers` API
   * [Autoencoder](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/3010_AE_MNIST.ipynb) - fully connected autoencoder applied to MNIST
   * [Vanilla GAN](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/3110_GAN_FC_MNIST.ipynb) - fully connected GAN on MNIST dataset
   * [DCGAN](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/3210_DCGAN.ipynb) - deep convolutional GAN on CelebA dataset (incomplete)
+
+
+<h2 id="datasets"> Datasets </h2>
+
+This section included dataset preprocessing notebooks. These need to be run first before corresponding neural network notebooks.
+
+* Image datasets
+  * [Tiny ImageNet](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/Datasets/1300_TinyImageNet.ipynb) - download, explore and convert to .npz
+  * [Oxford VGG Flowers 17](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/Datasets/1410_Oxford_VGG_Flowers.ipynb) - download, explore and convert to .npz
+  * [Stanford Dogs](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/Datasets/1430_Stanford_Dogs.ipynb) - download, explore and convert to .npz
