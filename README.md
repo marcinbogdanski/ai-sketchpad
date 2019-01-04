@@ -4,13 +4,16 @@ Implementations of various Deep Learning architectures. Includes MLPs, CNNs, RNN
 
 Contains:
 
-* **NumpyNN** - numpy implementations of:
-  * [Fully-Connected 1-Layer](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/0010_FC_1Layer.ipynb) - classification on College Admissions dataset
-  * [Fully-Connected 2-Layer for Classification](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/0020_FC_2LayerClass.ipynb) - classification on Fashion MNIST
-  * [Fully-Connected 2-Layer for Regression](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/0020_FC_2Layer_Reg.ipynb) - regression on Bike Sharing dataset
-  * [Vanilla RNN Char-Level Many-2-One](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/1010_Char_RNN_Unfolded.ipynb) - synthetic counting task
-  * [Vanilla RNN Char-Level Many-2-Many](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/1020_Char_RNN_Dinosaurs.ipynb) - generate dinosaur names
-* **KerasNN** - Keras implementations of:
+**Numpy** implementations of:
+  * Multi-Layer Perceptrons:
+    * [Fully-Connected 1-Layer](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/0010_FC_1Layer.ipynb) - classification on College Admissions dataset
+    * [Fully-Connected 2-Layer for Classification](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/0020_FC_2LayerClass.ipynb) - classification on Fashion MNIST
+    * [Fully-Connected 2-Layer for Regression](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/0020_FC_2Layer_Reg.ipynb) - regression on Bike Sharing dataset
+  * Recurrent Models:
+    * [Vanilla RNN Char-Level Many-2-One](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/1010_Char_RNN_Unfolded.ipynb) - synthetic counting task
+    * [Vanilla RNN Char-Level Many-2-Many](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/NumpyNN/1020_Char_RNN_Dinosaurs.ipynb) - generate dinosaur names
+
+**Keras** implementations of:
   * Multi-Layer Perceptrons:
     * [Multi-Layer Perceptron](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/0100_MLP_College.ipynb) - classification on College Admissions
     * [Multi-Layer Perceptron](https://github.com/marcinbogdanski/ai-sketchpad/blob/master/KerasNN/0120_MLP_MNIST.ipynb) - classification on MNIST
