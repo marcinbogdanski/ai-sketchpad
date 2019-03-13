@@ -1,5 +1,7 @@
 """
 Pytorch implementation of SegNet (https://arxiv.org/pdf/1511.00561.pdf)
+
+This file was acquired from: https://github.com/Sayan98/pytorch-segnet
 """
 
 from __future__ import print_function
