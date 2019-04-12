@@ -13720,7 +13720,7 @@ shape: (137860, 23)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_input</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="n">n_en_seq</span><span class="p">,))</span>                                        <span class="c1"># (?, 23)</span>
@@ -13750,21 +13750,18 @@ shape: (137860, 23)
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>WARNING:tensorflow:From /home/marcin/.anaconda/envs/tfgpu113/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
-Instructions for updating:
-Colocations handled automatically by placer.
-_________________________________________________________________
+<pre>_________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-input_1 (InputLayer)         (None, 23)                0         
+input_2 (InputLayer)         (None, 23)                0         
 _________________________________________________________________
-embedding (Embedding)        (None, 23, 50)            10050     
+embedding_1 (Embedding)      (None, 23, 50)            10050     
 _________________________________________________________________
-bidirectional (Bidirectional (None, 23, 128)           44160     
+bidirectional_1 (Bidirection (None, 23, 128)           44160     
 _________________________________________________________________
-time_distributed (TimeDistri (None, 23, 346)           44634     
+time_distributed_1 (TimeDist (None, 23, 346)           44634     
 _________________________________________________________________
-activation (Activation)      (None, 23, 346)           0         
+activation_1 (Activation)    (None, 23, 346)           0         
 =================================================================
 Total params: 98,844
 Trainable params: 98,844
@@ -13788,7 +13785,7 @@ _________________________________________________________________
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># from tensorflow.keras.utils import plot_model</span>
