@@ -13379,10 +13379,6 @@ x_test.shape (10000, 32, 32, 3)
         <span class="n">batch_y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">data_y</span><span class="p">[</span><span class="n">batch_i</span><span class="p">]</span>
 
         <span class="k">return</span> <span class="n">batch_x</span><span class="p">,</span> <span class="n">batch_y</span>
-        
-<span class="c1">#         return np.array([</span>
-<span class="c1">#             resize(imread(file_name), (200, 200))</span>
-<span class="c1">#                for file_name in batch_x]), np.array(batch_y)</span>
 
     <span class="k">def</span> <span class="nf">on_epoch_end</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data_x</span><span class="p">))</span>
